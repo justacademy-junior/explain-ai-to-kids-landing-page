@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Explain AI to Your Child (and Start Learning Together) | AI for Kids</title>
+<meta name="description" content="A playful guide for parents on how to explain AI to your child. Try the Spot the AI game, teach a robot to sort fruit, and start learning about artificial intelligence together.">
+<meta name="keywords" content="AI for kids, artificial intelligence for kids, explain AI, explain what artificial intelligence is, machine learning and artificial intelligence, AI education, learning with AI, teaching with AI, AI examples">
+<meta name="theme-color" content="#7C4DFF">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How to Explain AI to Your Child (and Start Learning Together)">
+<meta property="og:description" content="Games, simple words and everyday examples to help parents explain AI to kids and learn together.">
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Explain AI to Your Child (and Start Learning Together)",
+  "description": "A parent-friendly guide to explaining artificial intelligence to children with simple words, examples and activities.",
+  "about": ["AI for kids", "Artificial intelligence for kids", "AI education"],
+  "mainEntityOfPage": "https://justacademyjunior.com/blog/how-to-explain-ai-to-your-child-and-start-learning-together"
+}
+</script>
+<style>
+:root{
+  --ink:#2B2358;
+  --grape:#7C4DFF;
+  --bubble:#FF5FA2;
+  --lemon:#FFD84D;
+  --mint:#2FD6B0;
+  --sky:#59B8FF;
+  --paper:#FFF8E7;
+  --white:#fff;
+  --r:26px;
+  --pop:5px 5px 0 var(--ink);
+  --display:'Fredoka','Trebuchet MS',system-ui,sans-serif;
+  --body:'Nunito','Segoe UI',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.65;font-size:1.08rem;overflow-x:hidden;
+  background-image:radial-gradient(rgba(124,77,255,.13) 2px,transparent 2px);background-size:30px 30px}
+img,svg{max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);line-height:1.12;font-weight:700}
+h1{font-size:clamp(2.4rem,6.4vw,4.6rem)}
+h2{font-size:clamp(1.9rem,4.4vw,3rem);margin-bottom:.6rem}
+h3{font-size:1.35rem;margin-bottom:.4rem}
+p{max-width:62ch}
+:focus-visible{outline:4px solid var(--ink);outline-offset:3px;border-radius:10px}
+.wrap{width:min(1120px,92%);margin-inline:auto}
+section{padding:84px 0;position:relative}
+.lead{font-size:1.18rem;font-weight:600}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--display);font-weight:600;font-size:1.1rem;text-decoration:none;
+  padding:.85rem 1.5rem;border-radius:999px;border:3px solid var(--ink);background:var(--lemon);color:var(--ink);box-shadow:var(--pop);
+  cursor:pointer;transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ink)}
+.btn:active{transform:translate(4px,4px);box-shadow:1px 1px 0 var(--ink)}
+.btn.pink{background:var(--bubble);color:#fff}
+.btn.mint{background:var(--mint)}
+.btn.white{background:#fff}
+.btn.small{font-size:.95rem;padding:.55rem 1.1rem;box-shadow:3px 3px 0 var(--ink)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,248,231,.92);backdrop-filter:blur(8px);border-bottom:3px solid var(--ink)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:72px}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;font-family:var(--display);font-weight:700;font-size:1.35rem}
+.logo i{display:grid;place-items:center;width:42px;height:42px;background:var(--grape);border:3px solid var(--ink);border-radius:14px;font-style:normal;transform:rotate(-8deg);font-size:1.3rem}
+nav ul{display:flex;gap:.3rem;list-style:none;align-items:center}
+nav a{text-decoration:none;font-weight:800;padding:.45rem .8rem;border-radius:999px}
+nav a:hover{background:var(--lemon)}
+nav a.btn{padding:.55rem 1.1rem}
+.burger{display:none;background:var(--lemon);border:3px solid var(--ink);border-radius:14px;width:48px;height:44px;font-size:1.4rem;cursor:pointer}
+
+/* hero */
+.hero{padding-top:48px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center}
+.sticker{display:inline-block;background:var(--mint);border:3px solid var(--ink);border-radius:999px;padding:.3rem 1rem;font-weight:800;transform:rotate(-2deg);box-shadow:3px 3px 0 var(--ink);margin-bottom:1.2rem}
+.hero h1 span.h{background:linear-gradient(transparent 58%,var(--lemon) 58%)}
+.hero p{margin:1.2rem 0 1.8rem}
+.cta-row{display:flex;flex-wrap:wrap;gap:1rem}
+.stage{position:relative;display:grid;place-items:center;min-height:400px}
+.blob{position:absolute;inset:6% 4%;background:var(--sky);border:4px solid var(--ink);border-radius:58% 42% 55% 45%/48% 56% 44% 52%;animation:morph 9s ease-in-out infinite;box-shadow:var(--pop)}
+@keyframes morph{50%{border-radius:42% 58% 45% 55%/56% 44% 56% 44%}}
+.bit{position:relative;width:min(300px,76%);cursor:pointer;animation:bob 3.4s ease-in-out infinite;-webkit-tap-highlight-color:transparent}
+@keyframes bob{50%{transform:translateY(-12px)}}
+.bit.jump{animation:jump .6s}
+@keyframes jump{30%{transform:translateY(-40px) rotate(-6deg)}60%{transform:translateY(0) rotate(5deg)}}
+.bubble{position:absolute;top:2%;right:-2%;max-width:230px;background:#fff;border:3px solid var(--ink);border-radius:22px 22px 22px 4px;padding:.7rem 1rem;font-weight:800;font-size:.98rem;line-height:1.35;box-shadow:4px 4px 0 var(--ink);z-index:3;min-height:60px}
+.float{position:absolute;font-size:2.2rem;animation:drift 6s ease-in-out infinite;z-index:2;user-select:none}
+.f1{top:6%;left:2%}.f2{bottom:10%;left:0;animation-delay:-2s}.f3{bottom:4%;right:6%;animation-delay:-4s}.f4{top:44%;right:-1%;animation-delay:-1s}
+@keyframes drift{50%{transform:translateY(-16px) rotate(10deg)}}
+
+/* wavy dividers */
+.wave{display:block;width:100%;height:60px;margin-bottom:-2px}
+
+/* generic cards */
+.card{background:#fff;border:3px solid var(--ink);border-radius:var(--r);box-shadow:var(--pop);padding:1.6rem}
+.head{margin-bottom:2.2rem}
+.head p{font-weight:600}
+
+/* band backgrounds */
+.band-grape{background:var(--grape);color:#fff}
+.band-grape .card{color:var(--ink)}
+.band-lemon{background:var(--lemon)}
+.band-mint{background:var(--mint)}
+
+/* what is AI */
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem}
+.three .card:nth-child(1){transform:rotate(-1.5deg)}
+.three .card:nth-child(2){transform:rotate(1deg)}
+.three .card:nth-child(3){transform:rotate(-.8deg)}
+.three .emoji{font-size:2.6rem;display:block;margin-bottom:.4rem}
+.say{margin-top:2rem;background:var(--ink);color:#fff;border-radius:var(--r);padding:1.6rem 2rem;font-family:var(--display);font-size:clamp(1.2rem,2.6vw,1.7rem);box-shadow:var(--pop);border:3px solid var(--ink)}
+.say small{display:block;font-family:var(--body);font-weight:800;color:var(--lemon);font-size:.9rem;margin-bottom:.3rem}
+
+/* spot the AI */
+.game-top{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;margin-bottom:1.2rem}
+.score{background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:999px;padding:.4rem 1.2rem;font-family:var(--display);font-weight:600;box-shadow:3px 3px 0 var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.tile{background:#fff;border:3px solid var(--ink);border-radius:22px;padding:1rem .5rem;cursor:pointer;font-family:var(--display);font-size:1rem;color:var(--ink);
+  display:flex;flex-direction:column;align-items:center;gap:.2rem;box-shadow:4px 4px 0 var(--ink);transition:transform .12s,background .2s}
+.tile .e{font-size:2.6rem;line-height:1.1}
+.tile:hover:not(:disabled){transform:translateY(-4px) rotate(-1.5deg)}
+.tile.good{background:var(--mint)}
+.tile.bad{background:#ffd0d6;animation:shake .4s}
+.tile:disabled{cursor:default}
+@keyframes shake{25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
+.fact{margin-top:1.2rem;min-height:84px;background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:var(--r);padding:1rem 1.4rem;font-weight:700;box-shadow:var(--pop)}
+.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:2.5rem;align-items:start}
+
+/* teach bit */
+.lab{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem}
+.fruit{font-size:5.5rem;text-align:center;line-height:1.1;margin:.2rem 0 .6rem;transition:transform .2s}
+.fruit.pop{transform:scale(1.2) rotate(8deg)}
+.choices{display:flex;gap:.8rem;flex-wrap:wrap;justify-content:center}
+.meter{height:30px;background:#eee;border:3px solid var(--ink);border-radius:999px;overflow:hidden;margin:.6rem 0 .3rem}
+.meter b{display:block;height:100%;width:0;background:repeating-linear-gradient(45deg,var(--mint) 0 14px,#25bd9a 14px 28px);transition:width .4s}
+.out{font-weight:800;min-height:3.4em}
+.mini{display:flex;align-items:center;gap:1rem;margin-top:.8rem}
+.mini svg{width:70px;flex:none}
+
+/* age tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:.7rem;margin-bottom:1.4rem}
+.tab{font-family:var(--display);font-weight:600;font-size:1.1rem;padding:.6rem 1.3rem;border-radius:999px;border:3px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+.tab[aria-selected="true"]{background:var(--bubble);color:#fff}
+.panel{display:none}
+.panel.on{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;animation:pip .35s}
+@keyframes pip{from{transform:scale(.96);opacity:0}}
+.panel .card h3{display:flex;align-items:center;gap:.5rem}
+
+/* myths */
+.myths{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem}
+.flip{perspective:900px;border:0;background:none;height:250px;cursor:pointer;font:inherit;color:inherit;text-align:left}
+.flip .in{position:relative;width:100%;height:100%;transition:transform .55s;transform-style:preserve-3d}
+.flip.open .in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border:3px solid var(--ink);border-radius:var(--r);box-shadow:var(--pop);padding:1.2rem;display:flex;flex-direction:column;justify-content:center;gap:.5rem}
+.face.front{background:#fff}
+.face.front b{font-family:var(--display);font-size:1.25rem;line-height:1.2}
+.face.front span{font-size:.9rem;font-weight:800;color:var(--grape)}
+.face.back{background:var(--sky);transform:rotateY(180deg);font-weight:700;font-size:1rem;line-height:1.5}
+
+/* plan */
+.plan{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}
+.day{background:#fff;border:3px solid var(--ink);border-radius:var(--r);padding:1.2rem 1rem;box-shadow:4px 4px 0 var(--ink);text-align:center}
+.day:nth-child(odd){transform:rotate(-1.5deg)}
+.day:nth-child(even){transform:rotate(1.5deg)}
+.day .e{font-size:2.2rem}
+.day h3{font-size:1.15rem}
+.day p{font-size:.95rem;font-weight:600;line-height:1.45}
+
+/* safety + links */
+.safe{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem}
+.safe li{list-style:none;display:flex;gap:.8rem;align-items:flex-start;font-weight:700}
+.safe li span{font-size:1.7rem}
+.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem}
+.path{display:flex;flex-direction:column;gap:.6rem}
+.path .btn{margin-top:auto;align-self:flex-start}
+.tag{align-self:flex-start;background:var(--lemon);border:2px solid var(--ink);border-radius:999px;padding:.1rem .8rem;font-weight:800;font-size:.85rem}
+
+/* final cta */
+.final{text-align:center}
+.final .card{max-width:860px;margin:auto;padding:3rem 2rem;background:var(--bubble);color:#fff}
+.final p{margin:1rem auto 2rem;font-weight:700}
+.final .cta-row{justify-content:center}
+
+/* footer */
+footer{background:var(--ink);color:#fff;padding:60px 0 28px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+footer h3{color:var(--lemon);font-size:1.15rem}
+footer ul{list-style:none;display:grid;gap:.5rem}
+footer a{text-decoration:none;font-weight:700}
+footer a:hover{color:var(--lemon);text-decoration:underline}
+.copy{border-top:2px dashed rgba(255,255,255,.3);margin-top:2rem;padding-top:1.2rem;font-size:.92rem;opacity:.85}
+
+/* confetti */
+.conf{position:fixed;top:-40px;font-size:1.8rem;pointer-events:none;z-index:999;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(540deg)}}
+
+/* responsive */
+@media (max-width:980px){
+  .hero .wrap,.split,.lab{grid-template-columns:1fr}
+  .three,.panel.on,.paths{grid-template-columns:1fr}
+  .myths{grid-template-columns:repeat(2,1fr)}
+  .plan{grid-template-columns:repeat(2,1fr)}
+  .fgrid{grid-template-columns:1fr}
+  .three .card{transform:none!important}
+}
+@media (max-width:820px){
+  .burger{display:block}
+  nav{position:absolute;left:0;right:0;top:72px;background:var(--paper);border-bottom:3px solid var(--ink);display:none;padding:1rem 4%}
+  nav.open{display:block}
+  nav ul{flex-direction:column;align-items:stretch}
+  nav a{display:block}
+}
+@media (max-width:560px){
+  section{padding:60px 0}
+  .safe,.myths{grid-template-columns:1fr}
+  .plan{grid-template-columns:1fr}
+  .stage{min-height:340px}
+  .bubble{right:0;max-width:190px;font-size:.88rem}
+  .grid{gap:.6rem}
+  .tile .e{font-size:2.1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="AI Explorers home"><i>🤖</i> AI Explorers</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="#what">What is AI?</a></li>
+        <li><a href="#spot">Play</a></li>
+        <li><a href="#teach">Teach Bit</a></li>
+        <li><a href="#ages">By age</a></li>
+        <li><a href="#myths">Myths</a></li>
+        <li><a href="https://justacademyjunior.com/free-demo" target="_blank" rel="noopener" class="btn small">Free Demo</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="sticker">A guide for parents + a playground for kids</span>
+      <h1>How to <span class="h">explain AI</span> to your child (and start learning together)</h1>
+      <p class="lead">"Is Alexa alive?" "How does the phone know me?" Big questions arrive early. This page gives you simple words, quick games and gentle ideas, so <strong>AI for kids</strong> becomes something you explore side by side.</p>
+      <div class="cta-row">
+        <a class="btn" href="#spot">Play a game first</a>
+        <a class="btn pink" href="https://justacademyjunior.com/free-demo" target="_blank" rel="noopener">Book a free demo</a>
+      </div>
+    </div>
+    <div class="stage" aria-label="Bit the friendly robot">
+      <div class="blob" aria-hidden="true"></div>
+      <span class="float f1" aria-hidden="true">⭐</span>
+      <span class="float f2" aria-hidden="true">🍎</span>
+      <span class="float f3" aria-hidden="true">🎈</span>
+      <span class="float f4" aria-hidden="true">🍌</span>
+      <div class="bubble" id="bubble" role="status">Hi! I'm Bit. Tap me!</div>
+      <svg class="bit" id="bit" viewBox="0 0 300 340" role="img" aria-label="Bit the robot. Tap to hear a fun fact.">
+        <line x1="150" y1="30" x2="150" y2="62" stroke="#2B2358" stroke-width="8" stroke-linecap="round"/>
+        <circle cx="150" cy="24" r="15" fill="#FF5FA2" stroke="#2B2358" stroke-width="6"/>
+        <rect x="52" y="60" width="196" height="148" rx="48" fill="#FFD84D" stroke="#2B2358" stroke-width="7"/>
+        <rect x="34" y="106" width="22" height="50" rx="11" fill="#7C4DFF" stroke="#2B2358" stroke-width="6"/>
+        <rect x="244" y="106" width="22" height="50" rx="11" fill="#7C4DFF" stroke="#2B2358" stroke-width="6"/>
+        <rect x="76" y="86" width="148" height="72" rx="34" fill="#fff" stroke="#2B2358" stroke-width="6"/>
+        <circle cx="116" cy="122" r="21" fill="#fff" stroke="#2B2358" stroke-width="5"/>
+        <circle cx="184" cy="122" r="21" fill="#fff" stroke="#2B2358" stroke-width="5"/>
+        <circle id="pl" cx="116" cy="122" r="10" fill="#2B2358"/>
+        <circle id="pr" cx="184" cy="122" r="10" fill="#2B2358"/>
+        <circle cx="86" cy="170" r="10" fill="#FF5FA2" opacity=".55"/>
+        <circle cx="214" cy="170" r="10" fill="#FF5FA2" opacity=".55"/>
+        <path id="mouth" d="M120 180 Q150 202 180 180" fill="none" stroke="#2B2358" stroke-width="7" stroke-linecap="round"/>
+        <rect x="82" y="214" width="136" height="92" rx="30" fill="#59B8FF" stroke="#2B2358" stroke-width="7"/>
+        <rect x="116" y="238" width="68" height="40" rx="14" fill="#fff" stroke="#2B2358" stroke-width="5"/>
+        <circle cx="136" cy="258" r="7" fill="#FF5FA2"/><circle cx="164" cy="258" r="7" fill="#2FD6B0"/>
+        <rect x="104" y="304" width="30" height="26" rx="12" fill="#7C4DFF" stroke="#2B2358" stroke-width="6"/>
+        <rect x="166" y="304" width="30" height="26" rx="12" fill="#7C4DFF" stroke="#2B2358" stroke-width="6"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS AI -->
+<section id="what" class="band-lemon">
+  <div class="wrap">
+    <div class="head">
+      <h2>So, what is artificial intelligence?</h2>
+      <p class="lead">Artificial intelligence is about teaching computers to do jobs that usually need human thinking, like understanding speech, spotting faces or suggesting a song. The field of artificial intelligence is big, but the idea for a child is small.</p>
+    </div>
+    <div class="three">
+      <article class="card"><span class="emoji">🎓</span><h3>It practises</h3><p>AI learns by looking at lots and lots of examples, the way you learned to spot a dog after meeting many dogs.</p></article>
+      <article class="card"><span class="emoji">🧩</span><h3>It finds patterns</h3><p>Machine learning and artificial intelligence work together. The computer studies examples and finds the pattern by itself.</p></article>
+      <article class="card"><span class="emoji">🙅</span><h3>It is not alive</h3><p>A voice assistant can sound friendly, but it has no feelings, no dreams and no friends. It is a very clever program.</p></article>
+    </div>
+    <div class="say"><small>Say it out loud at home</small>"AI is a computer that practised a lot, and now it is good at one clever job."</div>
+  </div>
+</section>
+
+<!-- SPOT THE AI -->
+<section id="spot" class="band-grape">
+  <div class="wrap split">
+    <div>
+      <h2>Game 1: Spot the AI</h2>
+      <p class="lead">Artificial intelligence examples hide in everyday things. Tap everything you think uses AI. Careful, some things are just things!</p>
+      <p style="margin-top:1rem;font-weight:600">Parents: after each tap, read the fun fact together. It is the easiest way to start learning about AI.</p>
+    </div>
+    <div>
+      <div class="game-top">
+        <div class="score" id="score" aria-live="polite">AI helpers found: 0 / 5</div>
+        <button class="btn small white" id="resetSpot">Play again</button>
+      </div>
+      <div class="grid" id="spotGrid"></div>
+      <div class="fact" id="fact" role="status">Tap a picture to find out!</div>
+    </div>
+  </div>
+</section>
+
+<!-- TEACH BIT -->
+<section id="teach">
+  <div class="wrap">
+    <div class="head">
+      <h2>Game 2: Teach Bit to sort fruit</h2>
+      <p class="lead">This is machine learning in one minute. Bit starts out knowing nothing. Label each fruit correctly, watch Bit's brain grow, then test what Bit has learned.</p>
+    </div>
+    <div class="lab">
+      <div class="card">
+        <h3>Step 1. Be the teacher</h3>
+        <div class="fruit" id="fruit" aria-live="polite">🍎</div>
+        <div class="choices">
+          <button class="btn mint" data-label="apple">It's an apple</button>
+          <button class="btn" data-label="banana">It's a banana</button>
+        </div>
+        <p style="margin-top:1rem;font-weight:700" id="teachMsg">Show Bit what this fruit is.</p>
+      </div>
+      <div class="card">
+        <h3>Step 2. Test Bit's brain</h3>
+        <div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" id="meterWrap"><b id="meter"></b></div>
+        <p style="font-weight:800" id="meterTxt">Examples learned: 0 / 10</p>
+        <div class="mini">
+          <svg viewBox="0 0 100 100" aria-hidden="true"><rect x="12" y="16" width="76" height="62" rx="22" fill="#FFD84D" stroke="#2B2358" stroke-width="5"/><circle cx="36" cy="46" r="9" fill="#fff" stroke="#2B2358" stroke-width="4"/><circle cx="64" cy="46" r="9" fill="#fff" stroke="#2B2358" stroke-width="4"/><circle cx="36" cy="46" r="4" fill="#2B2358"/><circle cx="64" cy="46" r="4" fill="#2B2358"/><path d="M38 64 Q50 72 62 64" fill="none" stroke="#2B2358" stroke-width="5" stroke-linecap="round"/></svg>
+          <div class="out" id="testOut">Teach a few fruits, then press the test button.</div>
+        </div>
+        <div class="cta-row" style="margin-top:1rem">
+          <button class="btn pink" id="testBtn">Test Bit</button>
+          <button class="btn small white" id="resetTeach">Start over</button>
+        </div>
+        <p style="margin-top:1rem;font-size:.95rem;font-weight:600">Lesson: more good examples make AI better. Wrong labels make it confused. That is why people check the data.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGES -->
+<section id="ages" class="band-mint">
+  <div class="wrap">
+    <div class="head">
+      <h2>How to explain AI at every age</h2>
+      <p class="lead">A five year old and a thirteen year old need different words. Pick your child's age and try these.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Choose an age group">
+      <button class="tab" role="tab" aria-selected="true" data-p="p1">Ages 4 to 7</button>
+      <button class="tab" role="tab" aria-selected="false" data-p="p2">Ages 8 to 11</button>
+      <button class="tab" role="tab" aria-selected="false" data-p="p3">Ages 12 and up</button>
+    </div>
+    <div class="panel on" id="p1" role="tabpanel">
+      <article class="card"><h3>💬 Say this</h3><p>"A computer can learn like a puppy learns tricks. It tries, gets a little better, and tries again."</p></article>
+      <article class="card"><h3>🧸 Try this</h3><p>Sort a basket of toys by colour. Then explain that computers sort photos the same way, just with thousands of pictures.</p></article>
+      <article class="card"><h3>⏱️ Keep it short</h3><p>Two sentences are plenty. If your child wants more, they will ask. Children always do.</p></article>
+    </div>
+    <div class="panel" id="p2" role="tabpanel">
+      <article class="card"><h3>💬 Say this</h3><p>"A video app notices what you watched and finds similar videos. It learned that pattern from lots of people."</p></article>
+      <article class="card"><h3>🔍 Try this</h3><p>Ask "How does it know?" together. Explain that AI learns what a dog looks like from thousands of dog pictures.</p></article>
+      <article class="card"><h3>⚖️ Talk about mistakes</h3><p>If AI only saw small brown dogs, it might miss a big white one. Kids learn fairness fast.</p></article>
+    </div>
+    <div class="panel" id="p3" role="tabpanel">
+      <article class="card"><h3>💬 Say this</h3><p>"AI learns from data, and data can be incomplete or unfair. People have to check it."</p></article>
+      <article class="card"><h3>📱 Try this</h3><p>Look at how their social feed is chosen. Ask why some videos keep coming back.</p></article>
+      <article class="card"><h3>🧠 Ask this</h3><p>Can a machine be truly creative, or does it only remix? Who is responsible when AI gets it wrong?</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- MYTHS -->
+<section id="myths">
+  <div class="wrap">
+    <div class="head">
+      <h2>Myth busters: tap a card to flip it</h2>
+      <p class="lead">Movies and online clips plant funny ideas about artificial intelligence. Here is how to answer kindly.</p>
+    </div>
+    <div class="myths" id="mythGrid"></div>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section class="band-lemon" id="plan">
+  <div class="wrap">
+    <div class="head">
+      <h2>A five day plan, ten minutes a day</h2>
+      <p class="lead">No special equipment. Just curiosity, a notebook and a snack.</p>
+    </div>
+    <div class="plan">
+      <article class="day"><div class="e">🔎</div><h3>Monday</h3><p>Spot the AI at home. Make a list together.</p></article>
+      <article class="day"><div class="e">🍎</div><h3>Tuesday</h3><p>Teach the computer with a paper fruit sorting game.</p></article>
+      <article class="day"><div class="e">🌦️</div><h3>Wednesday</h3><p>Collect data. Track the weather and guess tomorrow.</p></article>
+      <article class="day"><div class="e">💬</div><h3>Thursday</h3><p>Ask a chatbot a question, then check the answer in a book.</p></article>
+      <article class="day"><div class="e">🎨</div><h3>Friday</h3><p>Draw a dragon, then compare it with an AI picture.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- SAFETY -->
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>Keep it safe, honest and fun</h2>
+      <p class="lead">Think of this as the digital version of looking both ways before crossing the street.</p>
+    </div>
+    <ul class="safe card" style="padding:2rem">
+      <li><span>🔒</span>Never share a full name, address, school or password with a chatbot.</li>
+      <li><span>✅</span>AI can be wrong. Make "let's check that" a family habit.</li>
+      <li><span>✏️</span>Try first, then use AI to check. If a tool does the homework, nothing is learned.</li>
+      <li><span>🌳</span>Balance screens with drawing, reading and outdoor play.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PATHS / LINKS -->
+<section class="band-grape" id="go">
+  <div class="wrap">
+    <div class="head">
+      <h2>Ready to keep exploring?</h2>
+      <p class="lead">Choose the next step that fits your family.</p>
+    </div>
+    <div class="paths">
+      <article class="card path"><span class="tag">For kids</span><h3>🎥 Try a free demo class</h3><p>See how your child enjoys a live, friendly session before deciding anything.</p><a class="btn pink" href="https://justacademyjunior.com/free-demo" target="_blank" rel="noopener">Book free demo</a></article>
+      <article class="card path"><span class="tag">For young learners</span><h3>🧭 Explore the programs</h3><p>Browse learning paths designed for different ages and interests.</p><a class="btn mint" href="https://justacademyjunior.com/programs" target="_blank" rel="noopener">See programs</a></article>
+      <article class="card path"><span class="tag">For teens and adults</span><h3>🚀 Go deeper with Generative AI</h3><p>Curious how modern language tools and LLM apps with RAG are built? Start here.</p><a class="btn" href="https://www.justacademy.co/ai-course/generative-ai-course-llm-apps-rag" target="_blank" rel="noopener">View the course</a></article>
+    </div>
+    <div class="card" style="margin-top:1.8rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between">
+      <div><h3>Want the full written guide?</h3><p style="font-weight:600">Read the complete blog with more examples, safety tips and conversation starters.</p></div>
+      <a class="btn white" href="https://justacademyjunior.com/blog/how-to-explain-ai-to-your-child-and-start-learning-together" target="_blank" rel="noopener">Read the blog</a>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="wrap">
+    <div class="card">
+      <h2>Be the grown-up who says "let's find out"</h2>
+      <p>You do not need a computer degree. You need simple words, honest answers and a little time. Start today and learn side by side.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://justacademyjunior.com/contact" target="_blank" rel="noopener">Enroll now</a>
+        <a class="btn white" href="https://justacademyjunior.com/free-demo" target="_blank" rel="noopener">Try a free demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="logo" href="#home" style="color:#fff"><i>🤖</i> AI Explorers</a>
+        <p style="margin-top:1rem;font-weight:600">A playful guide to AI for kids and the grown-ups who love them. Simple words, real examples and activities for learning together.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#what">What is AI?</a></li>
+          <li><a href="#spot">Spot the AI</a></li>
+          <li><a href="#teach">Teach Bit</a></li>
+          <li><a href="#ages">Explain by age</a></li>
+          <li><a href="#myths">Myth busters</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://justacademyjunior.com/free-demo" target="_blank" rel="noopener">Free demo</a></li>
+          <li><a href="https://justacademyjunior.com/programs" target="_blank" rel="noopener">Programs</a></li>
+          <li><a href="https://www.justacademy.co/ai-course/generative-ai-course-llm-apps-rag" target="_blank" rel="noopener">Generative AI course</a></li>
+          <li><a href="https://justacademyjunior.com/blog/how-to-explain-ai-to-your-child-and-start-learning-together" target="_blank" rel="noopener">Read the blog</a></li>
+          <li><a href="https://justacademyjunior.com/contact" target="_blank" rel="noopener">Enroll now</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">Made with curiosity for little learners. AI is a tool made by people, and people are still in charge.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var $=function(s,c){return (c||document).querySelector(s)};
+  var $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+
+  /* mobile menu */
+  var burger=$('#burger'),nav=$('#nav');
+  burger.addEventListener('click',function(){
+    var o=nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded',o);
+    burger.textContent=o?'✕':'☰';
+  });
+  $$('#nav a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');burger.textContent='☰';burger.setAttribute('aria-expanded','false')})});
+
+  /* confetti */
+  function confetti(){
+    var bits=['🎉','⭐','🎈','✨','🍎','🍌','💜'];
+    for(var i=0;i<34;i++){
+      var s=document.createElement('span');
+      s.className='conf';
+      s.textContent=bits[i%bits.length];
+      s.style.left=Math.random()*100+'vw';
+      s.style.animationDuration=(2.2+Math.random()*2)+'s';
+      s.style.animationDelay=(Math.random()*.6)+'s';
+      document.body.appendChild(s);
+      setTimeout(function(el){el.remove()},5200,s);
+    }
+  }
+
+  /* Bit: eyes follow pointer, talks on tap */
+  var bit=$('#bit'),pl=$('#pl'),pr=$('#pr'),bubble=$('#bubble'),mouth=$('#mouth');
+  function look(x,y){
+    var r=bit.getBoundingClientRect();
+    var cx=r.left+r.width/2,cy=r.top+r.height*.38;
+    var dx=x-cx,dy=y-cy,d=Math.min(Math.hypot(dx,dy),140)/140;
+    var a=Math.atan2(dy,dx),m=8*d;
+    var ox=Math.cos(a)*m,oy=Math.sin(a)*m;
+    pl.setAttribute('cx',116+ox);pl.setAttribute('cy',122+oy);
+    pr.setAttribute('cx',184+ox);pr.setAttribute('cy',122+oy);
+  }
+  window.addEventListener('pointermove',function(e){look(e.clientX,e.clientY)});
+  var lines=[
+    "Hi! I'm Bit. I'm a robot, not a person. I don't have feelings, but I love patterns!",
+    "Fun fact: AI learns from examples, just like you learned what a dog is.",
+    "I can make mistakes. That's why people always double check me.",
+    "Machine learning means I practise with LOTS of examples.",
+    "Data is my food. Good data makes me smarter!",
+    "Ask a grown-up: how does our phone know the fastest way home?"
+  ],li=0;
+  function say(t){bubble.textContent=t}
+  bit.addEventListener('click',function(){
+    li=(li+1)%lines.length;say(lines[li]);
+    bit.classList.remove('jump');void bit.offsetWidth;bit.classList.add('jump');
+    mouth.setAttribute('d','M120 176 Q150 214 180 176');
+    setTimeout(function(){mouth.setAttribute('d','M120 180 Q150 202 180 180')},700);
+  });
+  setInterval(function(){li=(li+1)%lines.length;say(lines[li])},9000);
+
+  /* Spot the AI */
+  var items=[
+    {e:'🔊',n:'Smart speaker',ai:1,m:'Yes! It turns your voice into words, finds an answer and talks back. That is AI.'},
+    {e:'🪨',n:'Rock',ai:0,m:'Nope. A rock does not learn anything. It is just a rock.'},
+    {e:'🗺️',n:'Map app',ai:1,m:'Yes! It studies traffic from thousands of cars to pick the fastest road.'},
+    {e:'🧸',n:'Teddy bear',ai:0,m:'Not AI. Teddy gives great hugs, but he does not learn from examples.'},
+    {e:'📺',n:'Video suggestions',ai:1,m:'Yes! It notices what you watch and finds similar videos.'},
+    {e:'🥄',n:'Spoon',ai:0,m:'Not AI. A spoon does one job and never gets better at it.'},
+    {e:'🐶',n:'Face filter',ai:1,m:'Yes! Dog ear filters work because AI can find a face and follow it as it moves.'},
+    {e:'⚽',n:'Ball',ai:0,m:'Not AI. But a game with a computer opponent might be!'},
+    {e:'⌨️',n:'Word guessing keyboard',ai:1,m:'Yes! It predicts the next word you might type, based on patterns.'}
+  ];
+  var grid=$('#spotGrid'),fact=$('#fact'),score=$('#score'),found=0;
+  function buildSpot(){
+    grid.innerHTML='';found=0;score.textContent='AI helpers found: 0 / 5';fact.textContent='Tap a picture to find out!';
+    items.forEach(function(it){
+      var b=document.createElement('button');
+      b.className='tile';b.type='button';
+      b.innerHTML='<span class="e" aria-hidden="true">'+it.e+'</span><span>'+it.n+'</span>';
+      b.addEventListener('click',function(){
+        if(b.disabled)return;
+        b.disabled=true;
+        fact.textContent=it.m;
+        if(it.ai){
+          b.classList.add('good');found++;
+          score.textContent='AI helpers found: '+found+' / 5';
+          if(found===5){fact.textContent='You found all 5! AI is quiet software working in the background, not just robots. Amazing spotting!';confetti()}
+        }else{b.classList.add('bad')}
+      });
+      grid.appendChild(b);
+    });
+  }
+  $('#resetSpot').addEventListener('click',buildSpot);
+  buildSpot();
+
+  /* Teach Bit */
+  var fruitEl=$('#fruit'),tMsg=$('#teachMsg'),meter=$('#meter'),mTxt=$('#meterTxt'),mWrap=$('#meterWrap'),tOut=$('#testOut');
+  var n=0,cur='apple',emoji={apple:'🍎',banana:'🍌'};
+  function nextFruit(){
+    cur=Math.random()<.5?'apple':'banana';
+    fruitEl.textContent=emoji[cur];
+    fruitEl.classList.add('pop');setTimeout(function(){fruitEl.classList.remove('pop')},200);
+  }
+  function paint(){
+    meter.style.width=(n*10)+'%';
+    mTxt.textContent='Examples learned: '+n+' / 10';
+    mWrap.setAttribute('aria-valuenow',n);
+  }
+  $$('[data-label]').forEach(function(b){
+    b.addEventListener('click',function(){
+      if(b.dataset.label===cur){
+        n=Math.min(10,n+1);
+        tMsg.textContent=n>=10?'Bit has seen lots of examples now. Time to test!':'Correct! Bit just learned something new.';
+      }else{
+        n=Math.max(0,n-1);
+        tMsg.textContent='Oops, that was the wrong label. Wrong examples confuse Bit, so its brain shrank a little.';
+      }
+      paint();nextFruit();
+    });
+  });
+  $('#testBtn').addEventListener('click',function(){
+    var truth=Math.random()<.5?'apple':'banana';
+    var p=Math.min(.97,.42+.055*n);
+    var guess=Math.random()<p?truth:(truth==='apple'?'banana':'apple');
+    var ok=guess===truth;
+    var lead=n<3?'Bit has barely practised, so this is mostly a guess. ':'';
+    tOut.textContent=emoji[truth]+' Bit says: "'+guess+'". '+(ok?'Correct! 🎉':'Not quite. 🙈')+' '+lead+'(Confidence: about '+Math.round(p*100)+'%)';
+    if(n>=10&&ok)confetti();
+  });
+  $('#resetTeach').addEventListener('click',function(){n=0;paint();nextFruit();tMsg.textContent='Show Bit what this fruit is.';tOut.textContent='Teach a few fruits, then press the test button.'});
+  paint();
+
+  /* Age tabs */
+  var tabs=$$('.tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(x){x.setAttribute('aria-selected','false')});
+      t.setAttribute('aria-selected','true');
+      $$('.panel').forEach(function(p){p.classList.remove('on')});
+      $('#'+t.dataset.p).classList.add('on');
+    });
+  });
+
+  /* Myths */
+  var myths=[
+    ['"AI robots will take over the world."','In films, maybe. In real life AI is a tool made by people, and people decide how it is used.'],
+    ['"AI knows everything."','AI knows a lot about what it was trained on, but it still makes mistakes and cannot think like a person.'],
+    ['"AI is always a robot."','Most AI is software inside phones, computers and apps. It does not need a body.'],
+    ['"Only scientists can understand AI."','Anyone can learn the basics. You are doing it right now!']
+  ];
+  var mg=$('#mythGrid');
+  myths.forEach(function(m,i){
+    var b=document.createElement('button');
+    b.type='button';b.className='flip';b.setAttribute('aria-pressed','false');
+    b.innerHTML='<span class="in"><span class="face front"><span>Myth '+(i+1)+'</span><b>'+m[0]+'</b><span>Tap to flip</span></span><span class="face back">'+m[1]+'</span></span>';
+    b.addEventListener('click',function(){var o=b.classList.toggle('open');b.setAttribute('aria-pressed',o)});
+    mg.appendChild(b);
+  });
+})();
+</script>
+</body>
+</html>
